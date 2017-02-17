@@ -1,0 +1,1 @@
+tail -f /var/log/slycat/web-server-access.log /var/log/slycat/web-server-stderr.txt /var/log/slycat/web-server-error.log
