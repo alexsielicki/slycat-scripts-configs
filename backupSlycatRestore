@@ -1,0 +1,1 @@
+python ~/src/slycat/web-server/slycat-load.py --data-store /var/lib/slycat/data-store ~/slycat-backup

@@ -1,2 +1,3 @@
-sudo service couchdb restart
+sudo service couchdb stop
+sudo service couchdb start
 sudo service slycat-web-server stop
