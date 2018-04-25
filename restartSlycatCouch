@@ -1,3 +1,5 @@
 sudo service couchdb stop
+sleep 2
 sudo service couchdb start
+sleep 2
 sudo service slycat-web-server stop
