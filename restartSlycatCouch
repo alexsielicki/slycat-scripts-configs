@@ -3,6 +3,7 @@ sleep 2
 sudo service couchdb start
 sleep 2
 sudo service slycat-web-server stop
+sudo rm /var/run/slycat-web-server.pid
 sudo service slycat-web-server start
 sudo service haproxy stop
 sudo service haproxy start
