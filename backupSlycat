@@ -1,1 +1,5 @@
-python ~/src/slycat/web-server/slycat-dump.py --all --force --data-store /var/lib/slycat/data-store ~/slycat-backup
+/home/slycat/install/conda/bin/python /home/slycat/src/slycat/web-server/slycat-dump.py \
+    --all-projects \
+    --all-references-bookmarks \
+    --data-store /var/lib/slycat/data-store \
+    /home/slycat/slycat-backup
